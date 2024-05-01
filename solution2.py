@@ -5,7 +5,7 @@
 def natural_count_up(n, count=1):
 
     if type(n) != int and type(n) != float:
-        print("The value is not a number, pleas choose a number.")
+        print("The value is not a number, please choose a number.")
     elif n < 1:
         print("The value is not a natural number, please choose a positive number.")    
     elif type(n) != int:
