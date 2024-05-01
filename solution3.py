@@ -9,7 +9,7 @@
 
 def nth_fib_element(n):
     if type(n) != int and type(n) != float:
-        print("The value is not a number, please choose a number.")
+        print("The value is not a number, pleasechoose a number.")
     elif n < 1 or type(n) != int :
         print("The value is not a positional number, please choose a whole number of 1 or larger.")    
     elif n == 1:
